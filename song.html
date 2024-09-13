@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#212121]">
+    <div class="con w-screen h-screen px-8 py-10">
+        <nav >
+            <i class="back fa-solid fa-chevron-up fa-rotate-270 fa-xl" style="color: #ffffff;"></i>
+        </nav>
+        <div class="song-img my-16 mx-auto object-cover flex flex-col items-center text-white">
+            <img class="w-full h-96" src="/src/media/song_1_img.jpeg" alt="" >
+            <h1 class=" text-3xl font-semibold mt-4">Goin off</h1>
+            <p>Karan Aujla | Mxrci | Latest Punjabi Songs 2024</p>
+
+            <audio src="/src/media/Goin Off (Official Video) Karan Aujla  Mxrci  Latest Punjabi Songs 2024.mp3" class="song"></audio>
+            <p class="time mt-36 ml-80"></p>
+            <input type="range" value='0' max="162" class="appearance-none w-full h-1 bg-gradient-to-tl from-slate-400 to-white rounded-lg mt-4" id="progress"></input>
+
+            <div class="contols flex items-center gap-16 mt-8">
+                <div class="ctrl"><i class="fa-solid fa-backward-step text-3xl" style="color: #ffffff;"></i></div>
+                <div class="ctrl-play"><i class=" fa-solid fa-play text-3xl" style="color: #212121;"></i></div>
+                <div class="ctrl"><i class="fa-solid fa-forward-step text-3xl" style="color: #ffffff;"></i></div>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>

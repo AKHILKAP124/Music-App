@@ -1,0 +1,25 @@
+*{
+    user-select: none;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 2px;
+    height: 20px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.ctrl{
+    cursor: pointer;
+}
+
+.ctrl-play{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;height: 60px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}

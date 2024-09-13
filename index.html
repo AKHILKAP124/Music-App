@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="w-screen h-screen bg-[#212121] font-['Poppins'] flex flex-col gap-4 px-10 py-5">
+    <header>
+        <nav class="text-white flex justify-between items-center">
+            <h1 class="text-2xl font-semibold flex items-center gap-2"><p class="">Akhil</p><i class="fa-solid fa-angle-down fa-xs"></i></h1>
+            <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+        </nav>
+    </header>
+    <hero class="main flex flex-col gap-6">
+        <div class="recent"></div>
+        <div class="feature">
+            <p class="text-white text-2xl">Feature</p>
+            <div class="line border-b w-full"></div>
+            <div class="items mt-6 flex flex-wrap gap-4 mb-5">
+                <a class="link" href="song.html">
+                    <div class="songitem border w-32 h-44 flex flex-col gap-0 items-center rounded-lg">
+                        <img src="/src/media/song_1_img.jpeg" alt="" class=" w-32 h-32 rounded-lg">
+                        <h1 class="font-semibold text-white text-center">Goin OFF</h1>
+                        <h2 class="text-white text-sm">KaranAujla</h2>
+                    </div>
+                </a>
+                <div class="border w-32 h-44 flex flex-col gap-0 items-center rounded-lg">
+                    <img src="/src/media/song_2_img.jpg" alt="" class=" w-32 h-32 rounded-lg">
+                    <h1 class="font-semibold text-white text-center">Never Fold</h1>
+                    <h2 class="text-white text-sm">Sidhu</h2>
+                </div>
+                <div class="border w-32 h-44 flex flex-col gap-0 items-center rounded-lg">
+                    <img src="/src/media/song_3_img.jpg" alt="" class=" w-32 h-32 rounded-lg">
+                    <h1 class="font-semibold text-white text-center">Zaalima</h1>
+                    <h2 class="text-white text-sm">ArijitSingh</h2>
+                </div>
+                
+            </div>
+            <div class="line border-b w-full "></div>
+        </div>
+    </hero>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
